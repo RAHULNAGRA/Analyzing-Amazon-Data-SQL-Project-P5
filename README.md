@@ -1,4 +1,9 @@
-# Analyzing-Amazon-Data-SQL-Project-P5
+# Swiggy-SQL-Analysis-Project-P5
+
+## Overview
+
+This project aims to extract insights from Swiggy's SQL dataset using sophisticated SQL queries with intricate joins for in-depth analysis and strategic decision-making.
+
 
 **Swiggy:-** Swiggy seeks insights from its SQL dataset. Implement sophisticated SQL queries with intricate joins for in-depth analysis and strategic decision-making.
 
@@ -18,4 +23,37 @@
 10. List all delivery partners who have completed more than 1 delivery
 11. Find the customers who have placed orders on exactly three different days.
 12. Find the delivery partner who has worked with the most different customers.
-13. Identify customers who have the same city and have placed orders at the same restaurants, but on different dates.13
+13. Identify customers who have the same city and have placed orders at the same restaurants, but on different dates.
+
+## MySQL Features Used
+
+The following MySQL features were utilized to execute the queries:
+
+- **SELECT Statement**: To retrieve specific columns and data from the database.
+- **WHERE Clause**: To filter records based on specified conditions.
+- **JOIN Operations**: To combine rows from two or more tables based on a related column, enabling comprehensive analysis.
+- **GROUP BY**: To aggregate data across multiple records, facilitating calculations like averages and totals.
+- **HAVING Clause**: To filter groups based on aggregate functions, ensuring accurate analysis of grouped data.
+- **COUNT() Function**: To count the number of rows that match a specified condition.
+- **AVG() Function**: To calculate the average of a specified column.
+- **DATE Functions**: To manipulate and filter date values for time-based queries.
+- **DISTINCT Keyword**: To return unique values from a column, useful for identifying unique customers or orders.
+
+## Technologies Used
+
+- SQL for data querying and analysis
+- Google Drive for dataset storage
+- GitHub for version control and collaboration
+
+## Installation
+
+To run the SQL queries locally, follow these steps:
+
+1. Download the dataset from the provided link.
+2. Import the dataset into your SQL database management system.
+3. Execute the SQL queries to perform the analysis.
+
+## Contribution
+
+Contributions are welcome! If you have suggestions for improvements or additional queries, please fork the repository and submit a pull request.
+
